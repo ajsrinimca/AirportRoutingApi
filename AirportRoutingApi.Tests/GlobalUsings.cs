@@ -1,0 +1,10 @@
+﻿global using AirportRoutingApi.Controllers;
+global using AirportRoutingApi.Dtos;
+global using AirportRoutingApi.Models;
+global using AirportRoutingApi.Services;
+global using AirportRoutingApi.Services.Interfaces;
+global using AirportRoutingApi.Tests.TestData;
+global using AutoMapper;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.Extensions.Logging;
+global using Moq;
