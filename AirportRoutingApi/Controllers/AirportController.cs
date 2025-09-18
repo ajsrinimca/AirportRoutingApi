@@ -1,13 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Text.RegularExpressions;
-
-namespace AiportRoutingApi.Controllers;
+﻿namespace AirportRoutingApi.Controllers;
 
 [ApiController]
-[Route("api/airports")]
-public class AirportsController(
+[Route("api/airport")]
+public class AirportController(
     IAirportService airportService,
-    ILogger<AirportsController> logger) : ControllerBase
+    ILogger<AirportController> logger) : ControllerBase
 {
     [HttpGet("{origin}/destinations")]
     [ProducesResponseType(typeof(AirportDestinationResponse), StatusCodes.Status200OK)]

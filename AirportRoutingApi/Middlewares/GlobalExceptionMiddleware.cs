@@ -1,4 +1,4 @@
-﻿namespace AiportRoutingApi.Middlewares;
+﻿namespace AirportRoutingApi.Middlewares;
 
 public class GlobalExceptionMiddleware(
     RequestDelegate next,

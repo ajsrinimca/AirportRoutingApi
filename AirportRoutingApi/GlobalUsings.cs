@@ -1,0 +1,12 @@
+﻿global using AirportRoutingApi.Dtos;
+global using AirportRoutingApi.Mappers;
+global using AirportRoutingApi.Middlewares;
+global using AirportRoutingApi.Models;
+global using AirportRoutingApi.Services;
+global using AirportRoutingApi.Services.Interfaces;
+global using AutoMapper;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.Extensions.Caching.Memory;
+global using Serilog;
+global using System.Text.Json;
+global using System.Text.RegularExpressions;

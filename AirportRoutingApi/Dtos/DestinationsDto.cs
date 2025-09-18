@@ -1,4 +1,4 @@
-﻿namespace AiportRoutingApi.Dtos;
+﻿namespace AirportRoutingApi.Dtos;
 
 public class DestinationsDto
 {

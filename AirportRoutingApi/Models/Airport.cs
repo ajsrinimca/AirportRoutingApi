@@ -1,4 +1,4 @@
-﻿namespace AiportRoutingApi.Models;
+﻿namespace AirportRoutingApi.Models;
 
 public class Airport
 {

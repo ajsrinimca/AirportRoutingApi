@@ -1,4 +1,4 @@
-﻿namespace AiportRoutingApi.Mappers;
+﻿namespace AirportRoutingApi.Mappers;
 
 public class AirportMapper : Profile
 {

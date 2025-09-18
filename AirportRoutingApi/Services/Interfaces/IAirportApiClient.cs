@@ -1,4 +1,4 @@
-namespace AiportRoutingApi.Services.Interfaces;
+namespace AirportRoutingApi.Services.Interfaces;
 
 public interface IAirportApiClient
 {
