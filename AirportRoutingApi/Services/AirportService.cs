@@ -13,6 +13,8 @@ public class AirportService(
             return null;
         }
 
+        //TODO: Add more filter by restricted on depature and desitination based on additional requirement confirmation.
+
         var connections = airports.Airports
             .FirstOrDefault(x => x.Code.Equals(origin, StringComparison.OrdinalIgnoreCase))
             ?.Connections ?? [];
